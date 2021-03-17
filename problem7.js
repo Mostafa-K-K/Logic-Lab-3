@@ -1,5 +1,4 @@
-function Function() {
-    const number = parseInt(prompt("Enter a number : "));
+function Function(number) {
     let isPrime = true;
     if (number == 0) {
         alert("Undefined.")
@@ -34,3 +33,20 @@ function Function() {
         }
     }
 }
+
+
+// function isprime(number) {
+//     if (number == 1) {
+//       return "this a prime number";
+//     } else {
+//       for (let i = 2; i < number; i++) {
+//         if (number % i === 0) {
+//           return "is not prime";
+//         }
+//       }
+//       return "is prime";
+//     }
+//   }
+//   console.log(isprime(25));
+//   console.log(isprime(3));
+  

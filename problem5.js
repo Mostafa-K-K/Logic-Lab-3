@@ -1,5 +1,4 @@
-function Function() {
-	var number = prompt("Enter a number : ");
+function Function(number) {
 	var a = 0;
 	for (var i = 0; i < number; i++) {
 		var r = number % i;
@@ -8,9 +7,24 @@ function Function() {
 		}
 	}
 	if (a == number) {
-		window.alert(a + " is a Perfect number.");
+		window.alert(number + " is a Perfect number.");
 	}
 	else {
-		window.alert(a + " is not a Perfect number.");
+		window.alert(number + " is not a Perfect number.");
 	}
 }
+
+
+// function perfect(a) {
+// 	var sum = 0;
+// 	for (var i = 1; i < a; i++) {
+// 		if (a % i === 0) {
+// 			sum += i;
+// 		}
+// 	} if (a === sum) {
+// 		return 'IS PERFECT';
+// 	} else {
+// 		return "NOT PERFECT";
+// 	}
+
+// }
